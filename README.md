@@ -47,8 +47,6 @@ class Reya extends Developer {
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white" />
 </p>
 
-<br/>
-
 ## GitHub Stats
 
 <div align="center">
