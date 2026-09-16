@@ -4,8 +4,15 @@
 
 <div style="background: linear-gradient(135deg, rgba(255,45,32,0.08) 0%, rgba(13,17,23,0.6) 100%); border: 1px solid rgba(255,45,32,0.22); border-left: 4px solid #FF2D20; border-radius: 14px; padding: 24px; position: relative; overflow: hidden;">
 
-<!-- animated shine overlay -->
-<div style="position: absolute; top: 0; left: -100%; width: 60%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,45,32,0.07), transparent); transform: skewX(-20deg); animation: shine 3.5s infinite;"></div>
+<!-- animated moving border - GERAK BENERAN di GitHub -->
+<svg width="100%" height="100%" style="position: absolute; top: 0; left: 0; pointer-events: none; border-radius: 14px;">
+  <rect x="0.5" y="0.5" width="99%" height="99%" rx="14" ry="14" fill="none" stroke="#FF2D20" stroke-width="1.2" stroke-dasharray="12 6" opacity="0.35">
+    <animate attributeName="stroke-dashoffset" from="0" to="18" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+<!-- top animated line gif -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-80f5-02606c2e42b5.gif" style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; opacity: 0.7; border-radius: 14px 14px 0 0;" />
 
 ## About Me
 
@@ -33,13 +40,6 @@ class Reya extends Developer {
 
 </div>
 
-<style>
-@keyframes shine {
-  0% { left: -100%; }
-  100% { left: 130%; }
-}
-</style>
-
 ## Skills
 
 <p align="center">
@@ -56,11 +56,6 @@ class Reya extends Developer {
 ## GitHub Stats
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=reya-prm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF2D20&icon_color=FF2D20&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=reya-prm&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF2D20&text_color=c9d1d9" />
-
-<br/>
 
 <img src="https://streak-stats.demolab.com?user=reya-prm&theme=tokyonight&hide_border=true&background=0d1117&ring=FF2D20&fire=FF2D20&currStreakLabel=FF2D20" />
 
