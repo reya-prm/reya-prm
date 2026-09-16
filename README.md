@@ -1,23 +1,26 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF2D20&height=140&section=header&text=Reya%20Permana&fontSize=44&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Laravel%20Developer&descAlignY=53" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF2D20&height=150&section=header&text=Reya%20Permana&fontSize=44&fontColor=fff&animation=fadeIn&fontAlignY=34&desc=Laravel%20Developer&descAlignY=58" />
 </div>
 
-<div style="background: linear-gradient(135deg, rgba(255,45,32,0.08) 0%, rgba(255,255,255,0.03) 100%); border: 1px solid rgba(255,45,32,0.2); border-left: 4px solid #FF2D20; border-radius: 14px; padding: 22px 24px;">
+<div style="background: linear-gradient(135deg, rgba(255,45,32,0.08) 0%, rgba(13,17,23,0.6) 100%); border: 1px solid rgba(255,45,32,0.22); border-left: 4px solid #FF2D20; border-radius: 14px; padding: 24px; position: relative; overflow: hidden;">
 
-## âœ¨ About Me
+<!-- animated shine overlay -->
+<div style="position: absolute; top: 0; left: -100%; width: 60%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,45,32,0.07), transparent); transform: skewX(-20deg); animation: shine 3.5s infinite;"></div>
 
-> *"Code is like humor. When you have to explain it, it's bad."*
+## About Me
 
-**Laravel Developer** â€” Crafting clean controllers & views.
+> "Code is like humor. When you have to explain it, it's bad."
 
-- ðŸŽ¯ Focus: Clean Architecture â€¢ POS Systems â€¢ Blade & Tailwind
-- ðŸ› ï¸ Stack: Laravel â€¢ PHP â€¢ MySQL â€¢ Tailwind â€¢ Vite
-- ðŸŒ± Learning: Eloquent Relations â€¢ Filament â€¢ Best Practices
-- ðŸ“§ Email: `reyapermana122@gmail.com`
-- ðŸŽµ Fun: Ngoding sambil dengerin musik
+**Laravel Developer** — Crafting clean controllers & views.
+
+- Focus: Clean Architecture, POS Systems, Blade & Tailwind
+- Stack: Laravel, PHP, MySQL, Tailwind, Vite
+- Learning: Eloquent Relations, Filament, Best Practices
+- Email: reyapermana122@gmail.com
+- Fun: Coding while listening to music
 
 <details>
-<summary>ðŸ“„ PHP snippet</summary>
+<summary>PHP snippet</summary>
 
 ```php
 class Reya extends Developer {
@@ -30,7 +33,14 @@ class Reya extends Developer {
 
 </div>
 
-## ðŸ› ï¸ Skills
+<style>
+@keyframes shine {
+  0% { left: -100%; }
+  100% { left: 130%; }
+}
+</style>
+
+## Skills
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=laravel,php,mysql,tailwind,js,html,css,git,vscode,github" />
@@ -43,7 +53,7 @@ class Reya extends Developer {
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white" />
 </p>
 
-## ðŸ“Š GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
