@@ -53,8 +53,7 @@ class Reya extends Developer {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=reya-prm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF2D20&icon_color=FF2D20&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=reya-prm&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FF2D20&text_color=c9d1d9" />
+
 
 <br/><br/>
 
